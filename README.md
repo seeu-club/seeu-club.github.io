@@ -1,1 +1,3 @@
-# seeu-club.github.io
+# SeeU Club Page
+
+Here is the homepage of SeeU Club
