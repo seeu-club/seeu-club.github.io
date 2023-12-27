@@ -1,1 +1,0 @@
-# seeu-club.github.io
