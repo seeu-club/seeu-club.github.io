@@ -17,5 +17,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
+          cname: seeuclub.xyz
           publish_branch: gh-pages  # default: gh-pages
           publish_dir: ./dist
