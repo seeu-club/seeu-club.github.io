@@ -9,12 +9,14 @@ const Box = styled.div`
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     }
     .webName{
-        background-image: linear-gradient(to right, #ff0000, #ff8000, #ff9900, #ffff00, #80ff66, #00ff80, #0080ff, #8000ff);
+        font-weight: bold;
+        background-image: linear-gradient(to right, #ff779b, #fff06e, #84ff93, #4d86fa);
         background-clip: text;
+        font-family: Aeonik Mono;
         -webkit-background-clip: text;
         color: transparent;
-        padding-top: 50px;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        -webkit-text-stroke: 2px #000;
+        //text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     }
 `
 
