@@ -37,7 +37,8 @@ export default function Banner() {
             </div>
             <div className="desc">
                 <span className="desc-text"> </span>
-                <Button className="launch-btn" onClick={() => togo("/inscribe")}>
+                {/* <Button className="launch-btn" onClick={() => togo("/inscribe")}> */}
+                <Button className="launch-btn" onClick={() => open("https://t.me/seeubtc")}>
                     <span className="label">Join {WEB_NAME}</span>
                 </Button>
             </div>
