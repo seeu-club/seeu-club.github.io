@@ -1,4 +1,4 @@
-import VideoBg from "../../assets/images/bg.mp4";
+import VideoBg from "../../assets/images/bg.webm";
 import {Button} from "antd"
 import {useNavigate} from "react-router-dom";
 import {WEB_NAME} from "../../utils/constant.js";
