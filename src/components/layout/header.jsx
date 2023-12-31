@@ -1,5 +1,5 @@
 import {Button, Dropdown, notification} from 'antd';
-import Logo from "../../assets/images/logo.svg";
+import Logo from "../../assets/images/logo.png";
 import {SearchOutlined, MenuOutlined} from "@ant-design/icons";
 import InscribeImg from "../../assets/images/inscribe.svg";
 import MarketImg from "../../assets/images/market.svg";
