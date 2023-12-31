@@ -79,8 +79,8 @@
   height: 100%;
   line-height: 46px;
   border-radius: 90px;
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
   font-family: Aeonik Mono;
   font-size: 20px
 }
@@ -195,7 +195,7 @@
 
 .home-page .home-container .inscribe .sub-content .item .info .text {
   width: 280px;
-  color: #8c8c8c;
+  color: #c8c8c8;
   font-size: 18px
 }
 
@@ -248,7 +248,7 @@
 
 .home-page .home-container .cards .card .card-info .card-desc {
   margin-top: 12px;
-  color: #8c8c8c;
+  color: #ccc;
   font-size: 18px;
   font-weight: 500
 }
@@ -328,7 +328,7 @@
   }
   .home-page .home-first-screen .slogan {
     font-size: 40px;
-    height: 200px
+    height: 200px;
   }
   .home-page .home-container {
     width: calc(100vw - 30px);

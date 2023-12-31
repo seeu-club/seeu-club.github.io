@@ -31,13 +31,13 @@ const LogoBox = styled.div`
   }
   img{
     height:90px;
-    background: #000;
+    //background: #000;
     margin-bottom: 30px;
   }
 `
 
 export default function Header() {
-  
+
     return <div className="app-header">
         <LogoBox>
             <NavLink to="/"><img src={Logo} alt=""/> </NavLink>

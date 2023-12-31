@@ -44,7 +44,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
   abbr[title], abbr[data-original-title] {
-    text-decoration: underline;
     text-decoration: underline dotted;
     border-bottom: 0;
     cursor: help
@@ -177,8 +176,8 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: #000;
-    color: #fff
+    background-color: #fff;
+    color: #000
   }
 
   .app-layout {
@@ -190,7 +189,7 @@ const GlobalStyle = createGlobalStyle`
 
   .app-layout .app-container {
     //width: 1400px;
-    min-width: 1200px;
+    //min-width: 1200px;
   }
 
   .ant-modal .ant-modal-content {
@@ -247,7 +246,7 @@ const GlobalStyle = createGlobalStyle`
     gap: 6px;
     padding: 9px 11px;
     cursor: pointer;
-    color: #c8c8c8;
+    color: #000;
     font-family: Aeonik;
     font-size: 14px
   }
@@ -366,7 +365,7 @@ const GlobalStyle = createGlobalStyle`
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #0d0d0d;
+    background-color: #f5f5f5;
     margin-top: auto;
     box-sizing: border-box;
     width: 100%;
