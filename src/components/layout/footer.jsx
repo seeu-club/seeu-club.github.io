@@ -13,7 +13,7 @@ export default function Footer() {
                     <img src={TwitterImg} alt=""/>
                 </span>
             </a>
-            <a className="media" href="#https://t.me/seeubtc" target="https://t.me/seeubtc">
+            <a className="media" href="https://t.me/seeubtc" target="https://t.me/seeubtc">
                 <img src={TelegramImg} alt=""/>
         </a></div>
     </div>
