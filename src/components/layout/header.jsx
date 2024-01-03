@@ -51,10 +51,10 @@ export default function Header() {
                 <img src={MarketImg} alt=""/>
                 <span className="label">Marketplace</span>
             </NavLink>
-            <NavLink to="/inscribe/"  className={({ isActive }) => isActive ? 'menu-item active' : 'menu-item false'}>
+            <a href="https://seeuclub.xyz/inscribe" rel="noreferrer" className={({ isActive }) => isActive ? 'menu-item active' : 'menu-item false'}>
                 <img src={InscribeImg} alt=""/>
                 <span className="label">Inscribe</span>
-            </NavLink>
+            </a>
         </Box>
         <div className="mobile-menu"><MenuOutlined />
         </div>
