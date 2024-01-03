@@ -283,13 +283,13 @@ Error generating stack: `+i.message+`
     gap: 6px;
     padding: 9px 11px;
     cursor: pointer;
-    color: #000;
+    color: #666;
     font-family: Aeonik;
     font-size: 14px
   }
 
   .app-header .menu .menu-item.active, .app-header .menu .menu-item:hover {
-    color: #fff
+    color: #000
   }
 
   .app-header .connect {
