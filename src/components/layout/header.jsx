@@ -28,6 +28,7 @@ const LogoBox = styled.div`
     color: #fff;
     line-height: 60px;
     text-decoration: none;
+      
   }
   img{
     height:90px;
@@ -51,7 +52,7 @@ export default function Header() {
                 <img src={MarketImg} alt=""/>
                 <span className="label">Marketplace</span>
             </NavLink>
-            <a href="https://seeuclub.xyz/inscribe" rel="noreferrer" className={({ isActive }) => isActive ? 'menu-item active' : 'menu-item false'}>
+            <a className="menu-item false" href="https://seeuclub.xyz/inscribe" rel="noreferrer" >
                 <img src={InscribeImg} alt=""/>
                 <span className="label">Inscribe</span>
             </a>
