@@ -44,20 +44,34 @@ export default function Header() {
             <NavLink to="/"><img src={Logo} alt=""/> </NavLink>
         </LogoBox>
         <Box className="menu">
-            <NavLink  to="/explorer" className={({ isActive }) => isActive ? 'menu-item active' : 'menu-item false'}>
-                <SearchOutlined />
-                <span className="label">Explorer</span>
-            </NavLink>
-            <NavLink  to="/marketplace" className={({ isActive }) => isActive ? 'menu-item active' : 'menu-item false'}>
+
+            <a href="https://seeu.meme" target="_blank"  className="menu-item false">
                 <img src={MarketImg} alt=""/>
-                <span className="label">Marketplace</span>
-            </NavLink>
-            <a className="menu-item false" href="https://seeuclub.xyz/inscribe" rel="noreferrer" >
+                <span className="label">Website</span>
+            </a>
+
+            <a href="https://www.okx.com/web3/marketplace/ordinals/brc20/SeeU" className="menu-item false" target="_blank">
+                <SearchOutlined/>
+                <span className="label">OKX Trade</span>
+            </a>
+            <a href="https://unisat.io/market/brc20?tick=SeeU" className="menu-item false"
+               target="_blank">
+                <SearchOutlined/>
+                <span className="label">Unisat Trade</span>
+            </a>
+            <a href="https://dune.com/0xfrozen/seeu-club" className="menu-item false"
+               target="_blank">
+                <SearchOutlined/>
+                <span className="label">Dune Dashboard</span>
+            </a>
+
+            <a className="menu-item active" href="https://seeuclub.xyz/inscribe" rel="noreferrer">
                 <img src={InscribeImg} alt=""/>
                 <span className="label">Inscribe</span>
             </a>
+
         </Box>
-        <div className="mobile-menu"><MenuOutlined />
+        <div className="mobile-menu"><MenuOutlined/>
         </div>
     </div>
 }
